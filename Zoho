@@ -12,11 +12,11 @@ class Zoho {
             ch[i] = str.charAt(i);
         }
         char answer = null;
-    for(int i=0;i<middle;i++){
+    for(int i=0;i<=middle;i++){
         System.out.println(answer + ch[middle+i]);
         answer = answer + ch[middle+i];
     }
-    for(int j=0;;j<middle;j++){
+    for(int j=0;j<middle;j++){
         System.out.println(answer + ch[j]);
         answer = answer +  ch[j];
     }
