@@ -9,16 +9,10 @@ class Zoho {
     
     String answer = "";
     for(int i=0;i<=middle;i++){
-        for(int k=length;k<=middle;k--){
-            System.out.print(" ");
-        }
         System.out.println(answer + str.charAt(middle+i));
         answer = answer + str.charAt(middle+i);
     }
     for(int j=0;j<middle;j++){
-        for(int k=middle;k<=middle;k--){
-            System.out.print(" ");
-        }
         System.out.println(answer + str.charAt(j));
         answer = answer +  str.charAt(j);
     }
