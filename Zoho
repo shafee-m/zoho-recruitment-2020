@@ -7,18 +7,14 @@ class Zoho {
     int length = str.length();
     int middle = length/2;
     
-    char[] ch = new char[str.length()];
-        for (int i = 0; i < str.length(); i++) {
-            ch[i] = str.charAt(i);
-        }
-        char answer = null;
+    String answer = "";
     for(int i=0;i<=middle;i++){
-        System.out.println(answer + ch[middle+i]);
-        answer = answer + ch[middle+i];
+        System.out.println(answer + str.charAt(middle+i));
+        answer = answer + str.charAt(middle+i);
     }
     for(int j=0;j<middle;j++){
-        System.out.println(answer + ch[j]);
-        answer = answer +  ch[j];
+        System.out.println(answer + str.charAt(j));
+        answer = answer +  str.charAt(j);
     }
     }
 }
